@@ -303,12 +303,70 @@ export default function Group2Page() {
 
           <div className="mt-3 rounded-2xl bg-white/5 p-4 ring-1 ring-white/10">
             <p className="text-sm font-extrabold text-white">Step 2: Use the correct formula</p>
-            <div className="mt-2 space-y-1 text-sm text-gray-200/90">
-              <p>KE = ½(m)(v)²</p>
-              <p>KE = ½(1,000)(10)²</p>
-              <p>KE = ½(1,000)(100)</p>
-              <p>KE = ½(100,000)</p>
-              <p>KE = 50,000 J</p>
+            <div className="mt-2 space-y-2 text-sm text-gray-200/90">
+              <div className="space-y-1 font-semibold italic text-gray-100">
+                <p>
+                  KE=
+                  <span className="inline-flex flex-col items-center align-middle leading-none">
+                    <span className="text-[11px]">1</span>
+                    <span className="h-px w-5 bg-gray-100/80" />
+                    <span className="text-[11px]">2</span>
+                  </span>{" "}
+                  (m) (v)
+                  <sup className="text-[10px]">2</sup>
+                </p>
+                <p>
+                  KE=
+                  <span className="inline-flex flex-col items-center align-middle leading-none">
+                    <span className="text-[11px]">1</span>
+                    <span className="h-px w-5 bg-gray-100/80" />
+                    <span className="text-[11px]">2</span>
+                  </span>
+                  {" "}
+                  (1,000 kg) (10 m/s)
+                  <sup className="text-[10px]">2</sup>
+                </p>
+
+                <p>
+                  KE={"\u00A0\u00A0"}
+                  <span className="inline-flex flex-col items-center align-middle leading-none">
+                    <span className="text-[11px]">1</span>
+                    <span className="h-px w-5 bg-gray-100/80" />
+                    <span className="text-[11px]">2</span>
+                  </span>
+                  {"\u00A0\u00A0"}
+                  (1,000 kg)(100 m
+                  <sup className="text-[10px]">2</sup>
+                  /s
+                  <sup className="text-[10px]">2</sup>
+                  )
+                </p>
+
+                <p>
+                  KE=
+                  <span className="inline-flex flex-col items-center align-middle leading-none">
+                    <span className="text-[11px]">1</span>
+                    <span className="h-px w-5 bg-gray-100/80" />
+                    <span className="text-[11px]">2</span>
+                  </span>
+                  {" "}
+                  ( 100,000 kg*m
+                  <sup className="text-[10px]">2</sup>
+                  /s
+                  <sup className="text-[10px]">2</sup>
+                  )
+                </p>
+
+                <p>
+                  KE=0.5 (100,000 kg*m
+                  <sup className="text-[10px]">2</sup>
+                  /s
+                  <sup className="text-[10px]">2</sup>
+                  )
+                </p>
+
+                <p>KE=50,000 J</p>
+              </div>
             </div>
           </div>
 
